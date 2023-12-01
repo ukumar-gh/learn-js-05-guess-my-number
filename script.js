@@ -20,4 +20,5 @@ document.querySelector('.check').addEventListener('click', function () {
   if (!guess) {
     document.querySelector('.message').textContent = 'No number!';
   }
+  console.log('dummy');
 });
